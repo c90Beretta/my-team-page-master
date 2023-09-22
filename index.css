@@ -1,0 +1,58 @@
+html {
+  justify-content: center;
+  align-content: center;
+  font-family: "Noto Sans", sans-serif;
+}
+.Header {
+  display: flex;
+  justify-content: space-around;
+}
+.Titulado {
+    font-size: 50px;
+  font-weight: 900;
+  margin-right: 5%;
+  font-family: "Times New Roman", Times, serif;
+}
+.Subtitulado{
+   font-size: 20px; 
+}
+.ContenedorColumnas{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,230px);
+    max-width: 100%;
+    grid-gap: 100px;
+    justify-content: center;
+}
+.text{
+    font-weight: 500;
+    font-size: 10px;
+
+}
+.Persona-Empleo {
+  display: flex;
+}
+.Persona-Empleo img {
+  max-width: 300px;
+  max-height: 300px;
+}
+.Empleo {
+  align-self: center;
+  position: absolute;
+  transform: rotate(90deg);
+  left: 17%;
+}
+.Nombre {
+  display: block;
+}
+.ContenedorEmpleo {
+  position: relative;
+  justify-items: center;
+  align-items: center;
+  margin: 0;
+  width: 1%;
+}
+
+.Contenedor2{
+    margin-top: 120px;
+   
+}

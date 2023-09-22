@@ -8,24 +8,33 @@ html {
   justify-content: space-around;
 }
 .Titulado {
-    font-size: 50px;
+    font-size: 30px;
   font-weight: 900;
   margin-right: 5%;
   font-family: "Times New Roman", Times, serif;
+
+}
+.Columna2{
+    display: block;
+    margin: 0;
+    padding: 0;
 }
 .Subtitulado{
-   font-size: 20px; 
+   font-size:20px; 
 }
 .ContenedorColumnas{
     display: grid;
-    grid-template-columns: repeat(auto-fill,230px);
-    max-width: 100%;
-    grid-gap: 100px;
     justify-content: center;
+    max-width: 100%;
+    width: 1000px;
+    height: auto;
+    grid-template-columns: repeat(auto-fill,230px);
+    grid-gap: 100px;
+    margin: 60px auto;
 }
 .text{
     font-weight: 500;
-    font-size: 10px;
+    font-size: 15px;
 
 }
 .Persona-Empleo {
